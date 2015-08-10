@@ -10,6 +10,6 @@
     </properties>
     <name>Wilson</name>
     <modules>
-        <module>WebService</module>
+        <module>common</module>
     </modules>
 </project>
