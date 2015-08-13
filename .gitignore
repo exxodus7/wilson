@@ -1,2 +1,10 @@
 /code/nbproject/private/
 /code/nozbe/nbproject/private/
+/code/object/target/
+/code/nozbe/target/
+/code/persistence-common/target/
+/deploy/test/target/
+/code/persistence-beans/target/
+/deploy/base-deployment/base-deployment-ejb/target/
+/deploy/base-deployment/base-deployment-web/target/
+/deploy/base-deployment/base-deployment-ear/target/

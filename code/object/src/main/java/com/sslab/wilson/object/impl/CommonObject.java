@@ -7,7 +7,7 @@ import org.springframework.data.annotation.Id;
  * Provides common functionality for all Wilson objects.
  */
 // TODO: Verify parent class.
-public class CommonObject extends CommonConfiguration implements ICommonObject {
+public class CommonObject implements ICommonObject {
 
     // Attribute keys
     @Id

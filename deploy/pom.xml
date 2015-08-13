@@ -8,4 +8,8 @@
     </parent>
     <artifactId>deploy</artifactId>
     <packaging>pom</packaging>
+    <modules>
+        <module>test</module>
+    <module>base-deployment</module>
+  </modules>
 </project>

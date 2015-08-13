@@ -11,7 +11,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>object</module>
-        <module>nozbe</module>
         <module>persistence-common</module>
+        <module>persistence-beans</module>
     </modules>
 </project>
