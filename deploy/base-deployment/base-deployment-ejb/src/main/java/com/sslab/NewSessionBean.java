@@ -6,6 +6,7 @@ package com.sslab;
 
 import javax.ejb.Stateless;
 import javax.ejb.LocalBean;
+import org.apache.log4j.Logger;
 
 /**
  *
@@ -14,8 +15,11 @@ import javax.ejb.LocalBean;
 @Stateless
 @LocalBean
 public class NewSessionBean {
+    
+    Logger logger = Logger.getLogger(this.getClass().getName());
 
     public void businessMethod() {
+        logger.info("Logging things!");
     }
 
     // Add business logic below. (Right-click in editor and choose
